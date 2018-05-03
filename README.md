@@ -33,7 +33,7 @@ cd MySensors
 Optional settings
 -----------------
 
-If you need other frequency, modem configuration, etc.. please edit MyConfig.h file
+If you need other frequency, modem configuration, etc.. please edit RFM95 section in MyConfig.h file
 
 Configurate
 -----------
