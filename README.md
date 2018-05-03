@@ -47,3 +47,7 @@ Compile & Run
 make
 sudo ./bin/mysgw
 ```
+
+More information
+-----
+Please visit www.mysensors.org
