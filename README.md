@@ -14,7 +14,7 @@ Connections
 -----------
 - SX1278 - Orange Pi Zero
 
-- 3.3V   - 3.3V (header pin #1) 
+- 3.3V   - 3.3V (header pin #17) 
 - GND	   - GND (pin #25)
 - MOSI   - MOSI (pin #19)
 - MISO   - MISO (pin #21)
