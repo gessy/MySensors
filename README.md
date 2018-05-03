@@ -41,14 +41,9 @@ Configurate
 ./configure --spi-spidev-device=/dev/spidev1.0 --my-transport=rfm95 --my-gateway=ethernet --my-port=5003
 ``
 
-Compile
+Compile & Run
 -------
-``
+```
 make
-``
-
-Run
----
-``
 sudo ./bin/mysgw
-``
+```
