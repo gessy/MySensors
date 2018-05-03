@@ -832,7 +832,7 @@
  * Additional information: https://en.wikipedia.org/wiki/Short_Range_Devices
  */
 #ifndef MY_RFM95_FREQUENCY
-#define MY_RFM95_FREQUENCY (RFM95_868MHZ)
+#define MY_RFM95_FREQUENCY (433900000)
 #endif
 
 /**
@@ -872,7 +872,7 @@
  * @brief Define this to use the RFM95 IRQ pin.
  */
 #ifndef MY_RFM95_IRQ_PIN
-#define MY_RFM95_IRQ_PIN DEFAULT_RFM95_IRQ_PIN
+#define MY_RFM95_IRQ_PIN (2)
 #endif
 
 /**
@@ -888,7 +888,7 @@
  * @brief RFM95 SPI chip select pin.
  */
 #ifndef MY_RFM95_CS_PIN
-#define MY_RFM95_CS_PIN DEFAULT_RFM95_CS_PIN
+#define MY_RFM95_CS_PIN (13)
 #endif
 
 /**
