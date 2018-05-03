@@ -24,9 +24,10 @@ Connections
 
 Download
 --------
-
 ``
 git clone https://github.com/mysensors/MySensors.git
+``
+``
 cd MySensors
 ``
 
