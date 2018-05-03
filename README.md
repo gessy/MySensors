@@ -25,7 +25,7 @@ Connections
 Download
 --------
 ```
-git clone https://github.com/mysensors/MySensors.git
+git clone https://github.com/vladikoms/MySensors.git
 cd MySensors
 ```
 
