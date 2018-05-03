@@ -1,13 +1,14 @@
-MySensors Library v2.3.0-alpha for Orange Pi Zero and Semtech SX1278 radio (RA-02 module)
-It has been tested on the Orange Pi Zero 512MB platform (OS ARMBIAN 5.35 Debian GNU/Linux 8 (jessie) 3.4.113-sun8i)
+MySensors Library v2.3.0-alpha
+
+It has been tested on the Orange Pi Zero 512MB platform (OS ARMBIAN 5.35 Debian GNU/Linux 8 (jessie) 3.4.113-sun8i) and Semtech SX1278 radio (RA-02 module)
 
 Default settings
 ----------------
 
-Working frequency: 433.9 MHz
-BW: 125 kHz
-CR: 4/5
-SF: 128
+- Working frequency: 433.9 MHz
+- BW: 125 kHz
+- CR: 4/5
+- SF: 128
 
 Connections
 -----------
