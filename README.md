@@ -1,17 +1,54 @@
-MySensors Library v2.3.0-alpha
+MySensors Library v2.3.0-alpha for Orange Pi Zero and Semtech SX1278 radio (RA-02 module)
+It has been tested on the Orange Pi Zero 512MB platform (OS ARMBIAN 5.35 Debian GNU/Linux 8 (jessie) 3.4.113-sun8i)
 
-Please visit www.mysensors.org for more information
+Default settings
+----------------
 
-Documentation
--------------
-[master](https://www.mysensors.org/apidocs/index.html) [development](https://www.mysensors.org/apidocs-beta/index.html)
+Working frequency: 433.9 MHz
+BW: 125 kHz
+CR: 4/5
+SF: 128
 
-CI statuses
+Connections
 -----------
-Current build status of master branch: [![Build Status](https://ci.mysensors.org/job/MySensors/job/MySensors/job/master/badge/icon)](https://ci.mysensors.org/job/MySensors/job/MySensors/job/master/)
+- SX1278 - Orange Pi Zero
 
-Current build status of development branch: [![Build Status](https://ci.mysensors.org/job/MySensors/job/MySensors/job/development/badge/icon)](https://ci.mysensors.org/job/MySensors/job/MySensors/job/development/)
+- 3.3V   - 3.3V (header pin #1) 
+- GND	   - GND (pin #25)
+- MOSI   - MOSI (pin #19)
+- MISO   - MISO (pin #21)
+- SCK    - CLK (pin #23)
+- DIO0   - GPIO2 (pin #22)
+- NSS    - GPIO13 (pin #24)
 
-Current build status of master branch (nightly build of Arduino IDE): [![Build Status](https://ci.mysensors.org/job/MySensors-nightly-IDE/job/MySensors/job/master/badge/icon)](https://ci.mysensors.org/job/MySensors-nightly-IDE/job/MySensors/job/master/)
+Download
+--------
 
-Current build status of development branch (nightly build of Arduino IDE): [![Build Status](https://ci.mysensors.org/job/MySensors-nightly-IDE/job/MySensors/job/development/badge/icon)](https://ci.mysensors.org/job/MySensors-nightly-IDE/job/MySensors/job/development/)
+``
+git clone https://github.com/mysensors/MySensors.git
+cd MySensors
+``
+
+Optional settings
+-----------------
+
+If you need other frequency, modem configuration, etc.. please edit MyConfig.h file
+
+Configurate
+-----------
+
+``
+./configure --spi-spidev-device=/dev/spidev1.0 --my-transport=rfm95 --my-gateway=ethernet --my-port=5003
+``
+
+Compile
+-------
+``
+make
+``
+
+Run
+---
+``
+sudo ./bin/mysgw
+``
