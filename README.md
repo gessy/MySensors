@@ -9,6 +9,7 @@ Default settings
 - BW: 125 kHz
 - CR: 4/5
 - SF: 128
+- Tx power: 13 dBm (20 mW)
 
 Connections
 -----------
@@ -32,7 +33,7 @@ cd MySensors
 Optional settings
 -----------------
 
-If you need other frequency, modem configuration, etc.. please edit RFM95 section in MyConfig.h file
+If you need other frequency, power, modem configuration, etc.. please edit RFM95 section in MyConfig.h file
 
 Configurate
 -----------
