@@ -913,7 +913,7 @@
  * @def MY_RFM95_ATC_MODE_DISABLED
  * @brief Define to disable ATC mode of RFM95 driver.
  */
-//#define MY_RFM95_ATC_MODE_DISABLED
+#define MY_RFM95_ATC_MODE_DISABLED
 
 /**
  * @def MY_RFM95_ATC_TARGET_RSSI
