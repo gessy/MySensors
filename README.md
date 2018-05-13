@@ -43,11 +43,29 @@ Configurate
 ./configure --spi-spidev-device=/dev/spidev1.0 --my-transport=rfm95 --my-gateway=ethernet --my-port=5003
 ``
 
-Compile & Run
+Compile
 -------
 ```
 make
+```
+
+Test Run
+------
+```
 sudo ./bin/mysgw
+```
+
+Install
+-----
+
+```
+sudo make install
+```
+
+To start service automatically when the Orange Pie boots:
+
+```
+sudo systemctl enable mysgw.service
 ```
 
 More information
