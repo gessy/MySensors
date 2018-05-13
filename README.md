@@ -10,6 +10,7 @@ Default settings
 - CR: 4/5
 - SF: 128
 - Tx power: 13 dBm (20 mW)
+- ATC mode disabled
 
 Connections
 -----------
